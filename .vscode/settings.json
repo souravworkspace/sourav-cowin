@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "files.exclude": {
+    ".vscode": true,
+    "node_modules": true,
+    "prettier.config.js": true,
+    "yarn.lock": true
+  },
+  "eslint.enable": false,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave"
+}

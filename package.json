@@ -1,0 +1,19 @@
+{
+  "name": "sourav-cowin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:souravworkspace/sourav-cowin.git",
+  "author": "Sourav Halder",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "lodash": "^4.17.21",
+    "node-notifier": "^9.0.1",
+    "node-schedule": "^2.0.0"
+  }
+}
