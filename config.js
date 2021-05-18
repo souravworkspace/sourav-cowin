@@ -10,7 +10,7 @@ function must(envName) {
 }
 
 module.exports = {
-  port: parseInt(ENV.PORT || '2000', 10),
+  port: parseInt(ENV.PORT || '80', 10),
   sendgridApiKey: must('SENDGRID_API_KEY'),
-  emails: must('EMAILS').split(','),
+  emails: (ENV.EMAILS || '').split(','),
 };

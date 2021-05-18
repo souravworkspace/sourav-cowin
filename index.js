@@ -72,7 +72,7 @@ async function sendMailNoty(centers) {
     wait: true,
   });
   for (email of config.emails) {
-    // sendMail(sub, email, text);
+    sendMail(sub, email, text);
   }
 }
 
